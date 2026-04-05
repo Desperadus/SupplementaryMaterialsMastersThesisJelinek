@@ -36,7 +36,7 @@ cd "${PBS_O_WORKDIR}"
 nvidia-smi
 
 # Transfer files to local scratch using variables
-# You need my MD_env.sif - you can create the sif yourself as described in README or email me for it (tomgolf.jelinek@gmail.com)
+# You need my MD_env.sif or run the python from the Mamba environment with the deps here - you can create the sif yourself too from the environment.yaml or email me for it (tomgolf.jelinek@gmail.com)
 cp run_md.py "$SCRATCHDIR"
 cp "output/$INPUT_PDB" "$SCRATCHDIR"
 cp ../MD_env.sif "$SCRATCHDIR"
