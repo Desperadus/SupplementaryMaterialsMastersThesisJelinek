@@ -4,7 +4,7 @@ This provides the script to run a Molecular Metadynamics with the gyration CV. A
 
 ## Dependencies
 
-Same as in the `OBP_Dynamics_GateDist_Torsion_CV`
+You will need to put the structures from before into the `output` folder. Otherwise its the same as in the `OBP_Dynamics_GateDist_Torsion_CV`
 
 ## Running the simulation
 
