@@ -1,0 +1,17 @@
+Bootstrap: docker
+From: mambaorg/micromamba:latest
+
+%files
+    environment.yaml /environment.yaml
+
+%post
+    # Install dependencies from the yaml file into the base environment
+    micromamba install -y -n base -f /environment.yaml
+    micromamba clean --all --yes
+
+%environment
+    # Ensure the environment is active for all shell/exec sessions
+    export PATH="/opt/conda/bin:$PATH"
+
+%runscript
+    exec "$@"

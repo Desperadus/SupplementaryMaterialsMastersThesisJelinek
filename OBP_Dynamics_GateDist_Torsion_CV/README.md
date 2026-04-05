@@ -14,3 +14,8 @@ Use:
 To display possible flags use `--help`.
 
 If you wish to run it for OBP2 (or possibly other OBPs), you need to specify the gating residues using the `--res1` and `--res2` flags.
+
+# Metacentrum
+
+A `long_job.pbs` is script which you can use to run this simulation on Metacentrum - note that you need to have a `MD_env.sif` which contains the mamba environment. You can build here by running:
+`apptainer build --nv MD_env.sif MD_env_apptainer.def`

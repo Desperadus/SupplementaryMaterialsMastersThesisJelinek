@@ -1,7 +1,6 @@
 name: MD
 channels:
   - conda-forge
-  - minmarg
   - pkgs/main
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
@@ -90,7 +89,6 @@ dependencies:
   - griddataformats=1.0.2=pyhd8ed1ab_1
   - gsd=4.2.0=h31e983c_0
   - gsl=2.7=he838d99_0
-  - gtalign_gpu=0.19.0=0
   - h11=0.16.0=pyhd8ed1ab_0
   - h2=4.3.0=pyhcf101f3_0
   - h5py=3.15.1=nompi_py313h253c126_101
@@ -350,6 +348,7 @@ dependencies:
   - tomli=2.3.0=pyhcf101f3_0
   - torchmetrics=1.8.2=pyhd8ed1ab_0
   - tornado=6.5.2=py313h07c4f96_2
+  - tqdm=4.67.1=pyhd8ed1ab_1
   - traitlets=5.14.3=pyhd8ed1ab_1
   - triton=3.1.0=cuda126py313h4a10a2e_6
   - typing-extensions=4.15.0=h396c80c_0
@@ -382,28 +381,8 @@ dependencies:
   - zstandard=0.25.0=py313h54dd161_1
   - zstd=1.5.7=hb8e6e7a_2
   - pip:
-    - PubChemPy==1.0.5
-    - aiohappyeyeballs==2.6.1
-    - aiohttp==3.13.3
-    - aiosignal==1.4.0
     - biopython==1.86
-    - cavefiller==0.4.1
-    - chemnames==0.2.0
     - deeptime==0.4.5
-    - freesasa==2.2.1
-    - frozenlist==1.8.0
-    - gemmi==0.7.4
-    - legacy-cgi==2.6.4
-    - multidict==6.7.1
-    - narwhals==2.16.0
-    - plotly==6.5.2
-    - prodigy-prot==2.4.0
-    - propcache==0.4.1
-    - pyKVFinder==0.9.0
     - shellingham==1.5.4
     - sklearn-sfa==0.1.6
-    - structopt==0.1.0
-    - tomlkit==0.14.0
-    - tqdm==4.67.3
     - typer==0.21.1
-    - yarl==1.22.0
