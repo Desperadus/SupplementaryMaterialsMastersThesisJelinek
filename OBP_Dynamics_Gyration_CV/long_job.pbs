@@ -1,0 +1,55 @@
+#!/bin/bash
+#PBS -N fel_obp5_with_walls
+#PBS -l select=1:ncpus=2:mem=24gb:scratch_local=32gb:ngpus=1
+#PBS -l walltime=30:00:00
+#PBS -o fel_gyration_medium_latest.out
+#PBS -e fel_gyration_medium_latest.err
+
+set -euo pipefail
+
+#Configuration
+export TMPDIR=$SCRATCHDIR
+export PROTEIN="OBP5"
+
+# Define paths based on the PROTEIN variable
+INPUT_PDB="${PROTEIN}_filled_optimized.pdb"
+OUTPUT_DIR="${PROTEIN,,}_run1_gyration" # ${VAR,,} makes the string lowercase (obp2)
+
+cleanup() {
+  echo "Job exiting at $(date)"
+  if [ -d "$SCRATCHDIR/$OUTPUT_DIR" ]; then
+    echo "Syncing $OUTPUT_DIR back to $PBS_O_WORKDIR..."
+    cp -r "$SCRATCHDIR/$OUTPUT_DIR" "$PBS_O_WORKDIR"
+  else
+    echo "Output directory $OUTPUT_DIR not found. Nothing to copy."
+  fi
+}
+
+trap cleanup EXIT
+
+echo "Job started on $(hostname) at $(date)"
+echo "Protein target: ${PROTEIN}"
+
+cd "${PBS_O_WORKDIR}"
+
+# Check GPU status
+nvidia-smi
+
+# Transfer files to local scratch using variables
+# You need my MD_env.sif or run the python from the Mamba environment with the deps here - you can create the sif yourself too from the environment.yaml or email me for it (tomgolf.jelinek@gmail.com)
+cp run_md.py "$SCRATCHDIR"
+cp "output/$INPUT_PDB" "$SCRATCHDIR"
+cp MD_env.sif "$SCRATCHDIR"
+
+cd "$SCRATCHDIR"
+
+# Execute MD Run
+singularity exec --nv MD_env.sif \
+  python run_md.py \
+  --input-pdb "$INPUT_PDB" \
+  --output-dir "$OUTPUT_DIR" \
+  --sigma 0.05 \
+  --height 1 \
+  --biasfactor 12 \
+  --pace 1500 \
+  --ns 100
