@@ -13,3 +13,4 @@ Use:
 
 To display possible flags use `--help`.
 
+If you wish to run it for OBP2 (or possibly other OBPs), you need to specify the gating residues using the `--res1` and `--res2` flags.
