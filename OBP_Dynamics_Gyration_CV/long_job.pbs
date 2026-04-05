@@ -52,4 +52,4 @@ singularity exec --nv MD_env.sif \
   --height 1 \
   --biasfactor 12 \
   --pace 1500 \
-  --ns 100
+  --ns 200
