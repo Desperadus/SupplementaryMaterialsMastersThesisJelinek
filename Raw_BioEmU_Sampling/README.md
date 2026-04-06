@@ -1,4 +1,4 @@
-# OBP5 Scripts
+# OBP5 BioEmu Sampling Scripts
 
 ## Requirements
 
