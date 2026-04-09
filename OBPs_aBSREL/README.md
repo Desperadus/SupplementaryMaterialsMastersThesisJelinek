@@ -1,6 +1,6 @@
 # How to run
 
-- Put the nucleotide sequences from GeneBank of the genes: KJ605390.1, KJ605394.1, KJ605393.1, KJ605392.1, KJ605391.1, NM_001310328.1 into `results/01_sequences/nucleotide_cds.fasta` file and the protein sequences into `results/01_sequences/protein.fasta`.
+Put the nucleotide sequences from GeneBank of the genes: KJ605390.1, KJ605394.1, KJ605393.1, KJ605392.1, KJ605391.1, NM_001310328.1 into `results/01_sequences/nucleotide_cds.fasta` file and the protein sequences into `results/01_sequences/protein.fasta`.
 
 Should look like this then:
 
