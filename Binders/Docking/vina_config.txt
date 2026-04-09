@@ -1,0 +1,17 @@
+receptor = protein_target/prepared.pdbqt
+batch = ligands_pdbqt
+dir = docked_results
+scoring = vinardo
+
+center_x = -2.17
+center_y = 2.06
+center_z = 1.41
+
+size_x = 20
+size_y = 20
+size_z = 20
+
+# Search settings.
+exhaustiveness = 32
+num_modes = 10
+energy_range = 4
