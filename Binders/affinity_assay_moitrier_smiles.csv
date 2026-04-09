@@ -1,0 +1,41 @@
+Compound,IC50 (uM) Fluo,Kd (uM) Fluo,N ITC,Ka (ITC),Kd (uM) ITC,smiles,InChI,Full Name
+octanoic acid,200.00,3.16,,,,CCCCCCCC(=O)O,"InChI=1S/C8H16O2/c1-2-3-4-5-6-7-8(9)10/h2-7H2,1H3,(H,9,10)",octanoic acid
+ethyl butyrate,40.0,2.60,,,,CCCC(=O)OCC,"InChI=1S/C6H12O2/c1-3-5-6(7)8-4-2/h3-5H2,1-2H3",ethyl butanoate
+citral,2.5,0.61,0.65,1.3E+07,0.076,CC(=CCC/C(=C/C=O)/C)C,"InChI=1S/C10H16O/c1-9(2)5-4-6-10(3)7-8-11/h5,7-8H,4,6H2,1-3H3/b10-7+","(2E)-3,7-dimethylocta-2,6-dienal"
+(-)-carvone,1.1,0.28,,,,CC1=CC[C@H](CC1=O)C(=C)C,"InChI=1S/C10H14O/c1-7(2)9-5-4-8(3)10(11)6-9/h4,9H,1,5-6H2,2-3H3/t9-/m1/s1",(5R)-2-methyl-5-prop-1-en-2-ylcyclohex-2-en-1-one
+hexanal,200.0,3.16,,,,CCCCCC=O,"InChI=1S/C6H12O/c1-2-3-4-5-6-7/h6H,2-5H2,1H3",hexanal
+benzothiazole,200.0,3.16,,,,C1=CC=C2C(=C1)N=CS2,InChI=1S/C7H5NS/c1-2-4-7-6(3-1)8-5-9-7/h1-5H,"1,3-benzothiazole"
+lilial,1.4,0.38,,,,CC(CC1=CC=C(C=C1)C(C)(C)C)C=O,"InChI=1S/C14H20O/c1-11(10-15)9-12-5-7-13(8-6-12)14(2,3)4/h5-8,10-11H,9H2,1-4H3",3-(4-tert-butylphenyl)-2-methylpropanal
+1-hexanol,40.0,2.60,,,,CCCCCCO,"InChI=1S/C6H14O/c1-2-3-4-5-6-7/h7H,2-6H2,1H3",hexan-1-ol
+isoamyl acetate,2.5,0.60,0.87,8.6E+06,0.116,CC(C)CCOC(=O)C,"InChI=1S/C7H14O2/c1-6(2)4-5-9-7(3)8/h6H,4-5H2,1-3H3",3-methylbutyl acetate
+pyrazine,200.0,3.16,,,,C1=CN=CC=N1,InChI=1S/C4H4N2/c1-2-6-4-3-5-1/h1-4H,pyrazine
+benzaldehyde,200.0,3.16,,,,C1=CC=C(C=C1)C=O,InChI=1S/C7H6O/c8-6-7-4-2-1-3-5-7/h1-6H,benzaldehyde
+1-heptanol,2.4,0.59,,,,CCCCCCCO,"InChI=1S/C7H16O/c1-2-3-4-5-6-7-8/h8H,2-7H2,1H3",heptan-1-ol
+anisole,200.0,3.16,,,,COC1=CC=CC=C1,"InChI=1S/C7H8O/c1-8-7-5-3-2-4-6-7/h2-6H,1H3",anisole
+camphor,10.4,1.60,,,,CC1(C2CCC1(C(=O)C2)C)C,"InChI=1S/C10H16O/c1-9(2)7-4-5-10(9,3)8(11)6-7/h7H,4-6H2,1-3H3","1,7,7-trimethylbicyclo[2.2.1]heptan-2-one"
+4-methoxy-benzaldehyde,40.0,2.60,,,,COC1=CC=C(C=C1)C=O,"InChI=1S/C8H8O2/c1-10-8-4-2-7(6-9)3-5-8/h2-6H,1H3",4-methoxybenzaldehyde
+2-methyl-pyrazine,200.0,3.16,,,,CC1=NC=CN=C1,"InChI=1S/C5H6N2/c1-5-4-6-2-3-7-5/h2-4H,1H3",2-methylpyrazine
+1-octanol,1.1,0.29,0.71,3.6E+07,0.028,CCCCCCCCO,"InChI=1S/C8H18O/c1-2-3-4-5-6-7-8-9/h9H,2-8H2,1H3",octan-1-ol
+cineole,40.0,2.60,,,,CC1(C2CCC(O1)(CC2)C)C,"InChI=1S/C10H18O/c1-9(2)8-4-6-10(3,11-9)7-5-8/h8H,4-7H2,1-3H3","1,3,3-trimethyl-2-oxabicyclo[2.2.2]octane"
+2-ethyl-pyrazine,200.0,3.16,,,,CCC1=NC=CN=C1,"InChI=1S/C6H8N2/c1-2-6-5-7-3-4-8-6/h3-5H,2H2,1H3",2-ethylpyrazine
+menthone,0.8,0.23,0.58,1.8E+07,0.055,C[C@@H]1CC[C@H](C(=O)C1)C(C)C,"InChI=1S/C10H18O/c1-7(2)9-5-4-8(3)6-10(9)11/h7-9H,4-6H2,1-3H3/t8-,9+/m1/s1","trans-(2S,5R)-5-methyl-2-propan-2-ylcyclohexan-1-one"
+thymol,40.0,2.60,,,,CC1=CC(=C(C=C1)C(C)C)O,"InChI=1S/C10H14O/c1-7(2)9-5-4-8(3)6-10(9)11/h4-7,11H,1-3H3",5-methyl-2-propan-2-ylphenol
+2-decanone,1.2,0.31,,,,CCCCCCCCC(=O)C,"InChI=1S/C10H20O/c1-3-4-5-6-7-8-9-10(2)11/h3-9H2,1-2H3",decan-2-one
+vanillin,200.0,3.16,,,,COC1=C(C=CC(=C1)C=O)O,"InChI=1S/C8H8O3/c1-11-8-4-6(5-9)2-3-7(8)10/h2-5,10H,1H3",4-hydroxy-3-methoxybenzaldehyde
+IBMP,7.2,1.30,,,,CC(C)CC1=NC=CN=C1OC,"InChI=1S/C9H14N2O/c1-7(2)6-8-9(12-3)11-5-4-10-8/h4-5,7H,6H2,1-3H3",2-methoxy-3-(2-methylpropyl)pyrazine
+geraniol,0.7,0.19,0.71,2.5E+07,0.040,CC(=CCC/C(=C/CO)/C)C,"InChI=1S/C10H18O/c1-9(2)5-4-6-10(3)7-8-11/h5,7,11H,4,6,8H2,1-3H3/b10-7+","(2E)-3,7-dimethylocta-2,6-dien-1-ol"
+(+)-carvone,1.0,0.28,0.47,8.7E+06,0.115,CC1=CC[C@@H](CC1=O)C(=C)C,"InChI=1S/C10H14O/c1-7(2)9-5-4-8(3)10(11)6-9/h4,9H,1,5-6H2,2-3H3/t9-/m0/s1",(5S)-2-methyl-5-prop-1-en-2-ylcyclohex-2-en-1-one
+gamma-decalactone,2.4,0.58,,,,CCCCCCC1CCC(=O)O1,"InChI=1S/C10H18O2/c1-2-3-4-5-6-9-7-8-10(11)12-9/h9H,2-8H2,1H3",5-hexyloxolan-2-one
+alpha-pinene,0.9,0.24,,,,CC1=CCC2CC1C2(C)C,"InChI=1S/C10H16/c1-7-4-5-8-6-9(7)10(8,2)3/h4,8-9H,5-6H2,1-3H3","2,6,6-trimethylbicyclo[3.1.1]hept-2-ene"
+beta-ionone,3.0,0.71,,,,CC1=C(C(CCC1)(C)C)/C=C/C(=O)C,"InChI=1S/C13H20O/c1-10-6-5-9-13(3,4)12(10)8-7-11(2)14/h7-8H,5-6,9H2,1-4H3/b8-7+","(E)-4-(2,6,6-trimethylcyclohexen-1-yl)but-3-en-2-one"
+octanal,1.3,0.34,,,,CCCCCCCC=O,"InChI=1S/C8H16O/c1-2-3-4-5-6-7-8-9/h8H,2-7H2,1H3",octanal
+maltol,200.0,3.16,,,,CC1=C(C(=O)C=CO1)O,"InChI=1S/C6H6O3/c1-4-6(8)5(7)2-3-9-4/h2-3,8H,1H3",3-hydroxy-2-methylpyran-4-one
+linalool,1.1,0.30,,,,CC(=CCCC(C)(C=C)O)C,"InChI=1S/C10H18O/c1-5-10(4,11)8-6-7-9(2)3/h5,7,11H,1,6,8H2,2-4H3","3,7-dimethylocta-1,6-dien-3-ol"
+ethyl acetate,200.0,3.16,,,,CCOC(=O)C,"InChI=1S/C4H8O2/c1-3-6-4(2)5/h3H2,1-2H3",ethyl acetate
+eugenol,200.0,3.16,,,,COC1=C(C=CC(=C1)CC=C)O,"InChI=1S/C10H12O2/c1-3-4-8-5-6-9(11)10(7-8)12-2/h3,5-7,11H,1,4H2,2H3",2-methoxy-4-prop-2-enylphenol
+cinnamal,200.0,3.16,,,,C1=CC=C(C=C1)/C=C/C=O,InChI=1S/C9H8O/c10-8-4-7-9-5-2-1-3-6-9/h1-8H/b7-4+,(E)-3-phenylprop-2-enal
+hexanoic acid,200.00,3.16,,,,CCCCCC(=O)O,"InChI=1S/C6H12O2/c1-2-3-4-5-6(7)8/h2-5H2,1H3,(H,7,8)",hexanoic acid
+cyclohexanone,200.0,3.16,,,,C1CCC(=O)CC1,InChI=1S/C6H10O/c7-6-4-2-1-3-5-6/h1-5H2,cyclohexanone
+menthol,1.5,0.38,,,,CC1CCC(C(C1)O)C(C)C,"InChI=1S/C10H20O/c1-7(2)9-5-4-8(3)6-10(9)11/h7-11H,4-6H2,1-3H3",5-methyl-2-propan-2-ylcyclohexan-1-ol
+dimethyl disulfide,200.0,3.16,,,,CSSC,InChI=1S/C2H6S2/c1-3-4-2/h1-2H3,(methyldisulfanyl)methane
+isovanillin,200.0,3.16,,,,COC1=C(C=C(C=C1)C=O)O,"InChI=1S/C8H8O3/c1-11-8-3-2-6(5-9)4-7(8)10/h2-5,10H,1H3",3-hydroxy-4-methoxybenzaldehyde
