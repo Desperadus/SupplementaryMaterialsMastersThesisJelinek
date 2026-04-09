@@ -1,5 +1,7 @@
 ## Dependencies
 - `seaborn, meeko, RDKit, autodock-vina`
+or ideally install the deps using mamba from the `environment.yaml` file.
+
 
 ## Preparation
 Put OBP5.pdb into the `protein_target` folder and run the `prepare_protein.sh` script.
