@@ -30,5 +30,14 @@ Then you can run:
 `./scripts/02_build_codon_alignment.sh`
 `./scripts/03_build_tree.sh`
 `./scripts/04_run_hyphy_absrel.sh`
+`./scripts/05_run_hyphy_meme.sh`
+`./scripts/06_run_hyphy_fel.sh`
+`./scripts/07_run_hyphy_gard.sh`
+`python3 ./scripts/08_prepare_fixed_gard_partitions.py`
+`./scripts/09_build_gard_segment_trees.sh`
+`./scripts/10_run_hyphy_segmented_selection.sh`
+`./scripts/11_run_hyphy_fitmg94_segments.sh`
 
 - The results will appear in the `results` folder.
+
+If you wish to run everything - run the `./run_all.sh` file.
