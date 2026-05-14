@@ -2,7 +2,7 @@
 set -euo pipefail
 
 MANIFEST="results/09_gard_partitions/segment_summary.tsv"
-ANALYSIS="/home/tomgolf/.conda/envs/evo/share/hyphy/TemplateBatchFiles/SelectionAnalyses/SingleOmega.bf"
+ANALYSIS="SingleOmega.bf"
 
 [[ -f "$MANIFEST" ]] || {
   echo "Missing $MANIFEST. Run python3 scripts/08_prepare_fixed_gard_partitions.py first." >&2
